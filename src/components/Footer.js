@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
+  AiFillFacebook,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -21,6 +21,18 @@ function Footer() {
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
+
+              <li className="social-icons">
+              <a
+                href="https://www.linkedin.com/in/amina-turki/"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaLinkedinIn />
+              </a>
+            </li>
+            
             <li className="social-icons">
               <a
                 href="https://github.com/torkiamina"
@@ -33,27 +45,18 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://github.com/torkiamina"
+                href="https://www.facebook.com/amina.turkii"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiOutlineTwitter />
+                <AiFillFacebook />
               </a>
             </li>
+          
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/soumyajit4419"
+                href="https://www.instagram.com/amina.turkii/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

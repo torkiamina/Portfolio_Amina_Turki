@@ -4,7 +4,7 @@ import myImg from "../../Assets/amina.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
+  AiFillFacebook,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -65,6 +65,18 @@ function Home2() {
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
+
+               <li className="social-icons">
+                <a
+                  href="https://linkedin.com/in/amina-turki"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+              
               <li className="social-icons">
                 <a
                   href="https://github.com/torkiamina"
@@ -77,27 +89,18 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://github.com/torkiamina"
+                  href="https://www.facebook.com/amina.turkii"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <AiFillFacebook />
                 </a>
               </li>
+             
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/amina.turkii/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -109,6 +112,7 @@ function Home2() {
           </Col>
         </Row>
       </Container>
+      
     </Container>
   );
 }
