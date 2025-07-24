@@ -26,7 +26,7 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="Développement d'une application web optimisant la gestion des productions pour réduire les coûts et améliorer le flux de production."
              // ghLink="https://github.com/torkiamina/Chatify"
               demoLink="https://chatify-49.web.app/"
             />
@@ -37,7 +37,7 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="Développement d’une application web pour la gestion de covoiturage permettant aux utilisateurs de proposer et de rechercher des covoiturages pour les trajets longue distance."
              // ghLink="https://github.com/torkiamina/Bits-0f-C0de"
               demoLink="https://blogs.soumya-jit.tech/"
             />
@@ -48,7 +48,7 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              description="Développement d’une application web et mobile pour la gestion des paiesdu personnel pour le client SOS."
              // ghLink="https://github.com/torkiamina/Editor.io"
               demoLink="https://editor.soumya-jit.tech/"              
             />
@@ -59,7 +59,7 @@ function Projects() {
               imgPath={leaf}
               isBlog={false}
               title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              description="Développement d'une application web et mobile de gestion de livraison des colis pour gérer l’acheminement des colis reçus d’un expéditeur vers un destinataire."
              // ghLink="https://github.com/torkiamina/Plant_AI"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
@@ -70,22 +70,21 @@ function Projects() {
               imgPath={suicide}
               isBlog={false}
               title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              description="Développement d'une application web de gestion des reclamations qui aide les gens à communiquer avec la municipalité et permettant d'exprimer leurs plaintes en ligne."
              // ghLink="https://github.com/torkiamina/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
               title="Face Recognition and Emotion Detection"
               description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-            //  ghLink="https://github.com/torkiamina/Face_And_Emotion_Detection"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
