@@ -4,8 +4,7 @@ import {
   SiSonarqube,
   SiDocker,
   SiJenkins,
-  SiVercel,
-  SiMacos,
+
 } from "react-icons/si";
 
 function Toolstack() {

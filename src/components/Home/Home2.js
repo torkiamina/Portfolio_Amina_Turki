@@ -16,40 +16,31 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              {/* LET ME <span className="purple"> INTRODUCE </span> MYSELF */}
+             Laissez-moi <span className="purple"> me présenter </span>
             </h1>
+
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              💻 Je suis passionnée par le développement web et mobile et j'aime transformer des idées en applications innovantes.
+
               <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
+              <br />🔹Je maîtrise des technologies variées comme <b className="purple"> Angular, ASP.NET, Laravel, React.js </b>ainsi que des bases de données 
+              
+              <b className="purple"> MySQL, SQL Server, MongoDB.</b>
+             
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              🚀 Mes centres d’intérêt : le développement de solutions web et mobiles innovantes et l’exploration de nouvelles technologies.
+
+          
+              <br />
+              <br />
+
+              ⚡ J’aime relever des défis techniques, créer des applications performantes et améliorer l’expérience utilisateur.
+                  <br />
+              <br />
+             📖 Curieuse et passionnée, je me forme en continu pour rester à jour sur les dernières tendances du développement.
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -60,9 +51,9 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>RETROUVEZ-MOI SUR</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              N'hésitez pas à me <span className="purple">contacter </span>
             </p>
             <ul className="home-about-social-links">
 
