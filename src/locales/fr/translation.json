@@ -1,0 +1,90 @@
+{
+
+
+    
+  "navbar": {
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "resume": "CV"
+  },
+
+  
+  "hello": "Salut !",
+  "iAm": "JE SUIS",
+  "typewriter": [
+    "Développeuse Logiciel",
+    "Freelance",
+    "Développeuse Full Stack"
+  ],
+
+  "introduce": "Laissez-Moi <1>Me Présenter</1>",
+   "homeDescription": {
+    "part1": "💻 Je suis passionnée par le développement web et mobile et j'aime transformer des idées en applications innovantes.",
+    "part2": "🔹Je maîtrise des technologies variées comme <1>Angular, ASP.NET, Laravel, React.js</1> ainsi que des bases de données <2>MySQL, SQL Server, MongoDB</2>.",
+    "part3": "🚀 Mes centres d'intérêt : le développement de solutions web et mobiles innovantes et l'exploration de nouvelles technologies.",
+    "part4": "⚡ J'aime relever des défis techniques, créer des applications performantes et améliorer l'expérience utilisateur.",
+    "part5": "📖 Curieuse et passionnée, je me forme en continu pour rester à jour sur les dernières tendances du développement."
+  },
+
+  "findMe": "RETROUVEZ-MOI SUR",
+  "contactMe": "N'hésitez pas à me <1>contacter</1>",
+
+   "about": {
+    "title": "À Propos De <1>Moi</1>",
+    "skills": "Compétences <1>professionnelles</1>",
+    "tools": "Outils <1>DevOps</1>"
+  },
+  "aboutCard": {
+    "greeting": "👋 Bonjour à tous, je m'appelle <1>Amina Turki</1> originaire <3>Sfax, Tunisie</3>.",
+    "intro": "Je suis développeuse web full-stack, passionnée par la création de solutions logicielles performantes et innovantes.",
+    "education1": "🎓 Titulaire d'un diplôme d'ingénieur en génie logiciel et informatique décisionnelle obtenu à <1>l'Institut International de Technologie (IIT)</1> en 2024, j'ai également obtenu une licence appliquée en développement des systèmes d'information à <3>l'Institut Supérieur des Études Technologiques (ISET)</3> de Sfax en 2021.",
+    "skills": "Ces formations m'ont permis de développer des compétences solides en développement web et mobile, en gestion de projets, ainsi qu'en résolution de problèmes complexes.",
+    "quote": "« Créez avec passion, innovez avec impact. »",
+    "author": "Amina Turki"
+  },
+
+ 
+  "projectCard": {
+    "githubButton": "GitHub",
+    "demoButton": "Démo",
+    "modal": {
+      "title": "Vidéo Démo",
+      "unsupported": "Votre navigateur ne supporte pas la lecture de vidéos."
+    }
+  },
+  "projects": {
+    "title": "<1>EXPÉRIENCE</1> PROFESSIONNELLE",
+    "subtitle": "Voici un aperçu de mes réalisations et expériences professionnelles.",
+    "items": [
+      {
+        "title": "Stage de fin d'études | Lynx-ERP - Sfax, Tunisie",
+        "description": "Développement d'une application web optimisant la gestion des productions pour réduire les coûts et améliorer le flux de production."
+      },
+      {
+        "title": "Stage professionnel | All Soft Multimédia (ASM) - Sfax, Tunisie",
+        "description": "Développement d'une application web pour la gestion de covoiturage permettant aux utilisateurs de proposer et de rechercher des covoiturages."
+      },
+      {
+        "title": "Stage de fin d'année | Logicom - Sfax, Tunisie",
+        "description": "Développement d'une application web et mobile pour la gestion des paies du personnel pour le client SOS."
+      },
+      {
+        "title": "Stage de fin d'études | Institut supérieur des études technologiques (ISET) - Sfax, Tunisie",
+        "description": "Développement d'une application web et mobile de gestion de livraison des colis."
+      },
+      {
+        "title": "Stage professionnel | All Soft Multimédia (ASM) - Sfax, Tunisie",
+        "description": "Développement d'une application web de gestion des réclamations permettant de communiquer avec la municipalité."
+      }
+    ]
+  },
+   "resume": {
+    "downloadButton": "Télécharger CV",
+    "title": "Mon CV"
+  },
+   "footer": {
+    "designedBy": "Conçu et développé par Amina Turki",
+    "copyright": "Copyright ©"
+  }
+}

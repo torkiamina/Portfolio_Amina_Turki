@@ -1,0 +1,85 @@
+{
+
+
+"navbar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "resume": "Resume"
+  },
+
+  "hello": "Hello!",
+  "iAm": "I AM",
+  "typewriter": [
+    "Software Developer",
+    "Freelancer",
+    "Full Stack Developer"
+  ],
+  "introduce": "Let Me <1>Introduce Myself </1> ",
+   "homeDescription": {
+    "part1": "💻 I'm passionate about web and mobile development and love turning ideas into innovative applications.",
+    "part2": "🔹 I master various technologies like <1>Angular, ASP.NET, Laravel, React.js</1> as well as databases <2>MySQL, SQL Server, MongoDB</2>.",
+    "part3": "🚀 My interests: developing innovative web and mobile solutions and exploring new technologies.",
+    "part4": "⚡ I enjoy technical challenges, creating high-performance applications and improving user experience.",
+    "part5": "📖 Curious and passionate, I continuously train myself to stay updated on the latest development trends."
+  },
+  "findMe": "FIND ME ON",
+  "contactMe": "Feel free to <1>contact</1> Whith me",
+  "about": {
+    "title": "About <1>Me</1>",
+    "skills": "Professional <1>Skills</1>",
+    "tools": "<1>DevOps</1> Tools"
+  },
+   "aboutCard": {
+    "greeting": "👋 Hello everyone, my name is <1>Amina Turki</1> from <3>Sfax, Tunisia</3>.",
+    "intro": "I'm a full-stack web developer, passionate about creating high-performance and innovative software solutions.",
+    "education1": "🎓 Holder of an engineering degree in software engineering and business intelligence obtained at the <1>International Institute of Technology (IIT)</1> in 2024, I also earned an applied license in information systems development at the <3>Higher Institute of Technological Studies (ISET)</3> of Sfax in 2021.",
+    "skills": "These trainings allowed me to develop strong skills in web and mobile development, project management, as well as solving complex problems.",
+    "quote": "« Create with passion, innovate with impact. »",
+    "author": "Amina Turki"
+  },
+ "projectCard": {
+    "githubButton": "GitHub",
+    "demoButton": "Demo",
+    "modal": {
+      "title": "Demo Video",
+      "unsupported": "Your browser doesn't support video playback."
+    }
+  },
+    "projects": {
+    "title": "<1>PROFESSIONAL</1> EXPERIENCE",
+    "subtitle": "Here's an overview of my achievements and professional experiences.",
+    "items": [
+      {
+        "title": "Final year internship | Lynx-ERP - Sfax, Tunisia",
+        "description": "Development of a web application optimizing production management to reduce costs and improve production flow."
+      },
+      {
+        "title": "Professional internship | All Soft Multimédia (ASM) - Sfax, Tunisia",
+        "description": "Development of a carpooling web application allowing users to offer and search for long-distance carpooling."
+      },
+      {
+        "title": "End-of-year internship | Logicom - Sfax, Tunisia",
+        "description": "Development of a web and mobile application for payroll management for SOS client."
+      },
+      {
+        "title": "Final year internship | Higher Institute of Technological Studies (ISET) - Sfax, Tunisia",
+        "description": "Development of a web and mobile parcel delivery management application."
+      },
+      {
+        "title": "Professional internship | All Soft Multimédia (ASM) - Sfax, Tunisia",
+        "description": "Development of a complaints management web application helping people communicate with the municipality."
+      }
+    ]
+  },
+   "resume": {
+    "downloadButton": "Download CV",
+    "title": "My Resume"
+  },
+ "footer": {
+    "designedBy": "Designed and developed by Amina Turki",
+    "copyright": "Copyright ©"
+  }
+
+
+}

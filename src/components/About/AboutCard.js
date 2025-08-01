@@ -1,34 +1,40 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import { useTranslation, Trans } from "react-i18next";
 
 function AboutCard() {
+  const { t } = useTranslation();
+
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-           
-
-           👋 Bonjour à tous, je m'appelle, <span className="purple"> Amina Turki </span>
-            originaire <span className="purple"> Sfax, Tunisie.</span>
+            <Trans i18nKey="aboutCard.greeting" components={{
+              1: <span className="purple" />,
+              3: <span className="purple" />
+            }}>
+              👋 Hello everyone, my name is <span className="purple">Amina Turki</span> from <span className="purple">Sfax, Tunisia</span>.
+            </Trans>
             <br />
-            Je suis développeuse web full-stack, passionnée par la création de solutions logicielles performantes et innovantes.
-            
+            {t("aboutCard.intro")}
             <br />
             <br />
-           🎓 Titulaire d’un diplôme d’ingénieur en génie logiciel et informatique décisionnelle obtenu à <span className="purple"> l’Institut International de Technologie (IIT) </span> en 2024, j’ai également obtenu une licence appliquée en développement des systèmes d’information à <span className="purple"> l’Institut Supérieur des Études Technologiques (ISET) </span> de Sfax en 2021.
-           
+            <Trans i18nKey="aboutCard.education1" components={{
+              1: <span className="purple" />,
+              3: <span className="purple" />
+            }}>
+              🎓 Holder of an engineering degree at <span className="purple">IIT</span> and also studied at <span className="purple">ISET</span> Sfax.
+            </Trans>
           </p>
       
           <p style={{ textAlign: "justify" }}>
-
-          Ces formations m’ont permis de développer des compétences solides en développement web et mobile, en gestion de projets, ainsi qu'en résolution de problèmes complexes.
+            {t("aboutCard.skills")}
           </p>
           <p style={{ color: "rgb(155 126 172)" }}>
-            « Créez avec passion, innovez avec impact. » {" "}
-            {/* « Mon objectif : créer des solutions qui comptent. » */}
+            {t("aboutCard.quote")}
           </p>
-          <footer className="blockquote-footer">Amina Turki</footer>
+          <footer className="blockquote-footer">{t("aboutCard.author")}</footer>
         </blockquote>
       </Card.Body>
     </Card>

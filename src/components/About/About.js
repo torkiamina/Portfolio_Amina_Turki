@@ -4,10 +4,12 @@ import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/amina.png";
-
 import Toolstack from "./Toolstack";
+import { useTranslation, Trans } from "react-i18next";
 
 function About() {
+  const { t } = useTranslation();
+
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -22,7 +24,11 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-            À Propos De <strong className="purple">Moi</strong>
+              <Trans i18nKey="about.title" components={{
+                1: <strong className="purple" />
+              }}>
+                À Propos De <strong className="purple">Moi</strong>
+              </Trans>
             </h1>
             <Aboutcard />
           </Col>
@@ -35,16 +41,23 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-         Compétences <strong className="purple">professionnelles </strong>
+          <Trans i18nKey="about.skills" components={{
+            1: <strong className="purple" />
+          }}>
+            Compétences <strong className="purple">professionnelles</strong>
+          </Trans>
         </h1>
 
         <Techstack />
 
-         <h1 className="project-heading">
-        Outils  <strong className="purple"> DevOps</strong> 
-        </h1> 
+        <h1 className="project-heading">
+          <Trans i18nKey="about.tools" components={{
+            1: <strong className="purple" />
+          }}>
+            Outils <strong className="purple">DevOps</strong>
+          </Trans>
+        </h1>
         <Toolstack />
-
       </Container>
     </Container>
   );

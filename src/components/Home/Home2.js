@@ -9,39 +9,43 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
+import { useTranslation, Trans } from "react-i18next";
+
 function Home2() {
+    const { t } = useTranslation();
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              {/* LET ME <span className="purple"> INTRODUCE </span> MYSELF */}
+            {/* <h1 style={{ fontSize: "2.6em" }}>
              Laissez-moi <span className="purple"> me présenter </span>
-            </h1>
+            </h1> */}
 
-            <p className="home-about-body">
-              💻 Je suis passionnée par le développement web et mobile et j'aime transformer des idées en applications innovantes.
-
-              <br />
-              <br />🔹Je maîtrise des technologies variées comme <b className="purple"> Angular, ASP.NET, Laravel, React.js </b>ainsi que des bases de données 
-              
-              <b className="purple"> MySQL, SQL Server, MongoDB.</b>
-             
-              <br />
-              <br />
-              🚀 Mes centres d’intérêt : le développement de solutions web et mobiles innovantes et l’exploration de nouvelles technologies.
-
-          
-              <br />
-              <br />
-
-              ⚡ J’aime relever des défis techniques, créer des applications performantes et améliorer l’expérience utilisateur.
-                  <br />
-              <br />
-             📖 Curieuse et passionnée, je me forme en continu pour rester à jour sur les dernières tendances du développement.
-
-            </p>
+          <h1 style={{ fontSize: "2.6em" }}>
+            <Trans i18nKey="introduce">
+              Laissez-moi <span className="purple">me présenter</span>
+            </Trans>
+          </h1>
+          <p className="home-about-body">
+  {t("homeDescription.part1")}
+  <br />
+  <br />
+  <Trans i18nKey="homeDescription.part2">
+    🔹 I master various technologies like <b className="purple">Angular, ASP.NET, Laravel, React.js</b> as well as databases <b className="purple">MySQL, SQL Server, MongoDB</b>.
+  </Trans>
+  <br />
+  <br />
+  {t("homeDescription.part3")}
+  <br />
+  <br />
+  {t("homeDescription.part4")}
+  <br />
+  <br />
+  {t("homeDescription.part5")}
+</p>
+            
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
@@ -51,10 +55,10 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>RETROUVEZ-MOI SUR</h1>
-            <p>
-              N'hésitez pas à me <span className="purple">contacter </span>
-            </p>
+          <h1>{t("findMe")}</h1>
+        
+            <Trans i18nKey="contactMe">N'hésitez pas à me <span className="purple">contacter</span></Trans>
+            <br />
             <ul className="home-about-social-links">
 
                <li className="social-icons">

@@ -778,24 +778,39 @@ button:focus {
   }
 }
 
-.fork-btn {
+.lang-dropdown{
   font-size: 1.1em !important;
   padding-top: 10px !important;
+  
 }
 
-.fork-btn-inner {
+.lang-dropdown-toggle {
   line-height: 1.4em !important;
-  background-color: #934cce5e !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
-}
+  border-radius: 5px !important;
+  color: white;
+} 
 
-.fork-btn-inner:hover {
+.lang-dropdown-toggle:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
+  background-color: #934cce5e !important;
   border-color: #a24dd386 !important;
 }
-.fork-btn-inner::after {
-  display: none !important;
+
+@media (max-width: 768px) {
+  .lang-dropdown {
+    font-size: 1em !important;
+    padding-top: 5px !important;
+    text-align: center !important;
+    width: 100%; 
+  }
+
+  .lang-dropdown-toggle {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.8rem !important;
+    font-size: 1em !important;
+  }
 }
